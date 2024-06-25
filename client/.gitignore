@@ -12,8 +12,9 @@ dist
 dist-ssr
 *.local
 
-# Secret 
+# Ignore .env file containing sensitive information
 .env
+
 
 # Editor directories and files
 .vscode/*

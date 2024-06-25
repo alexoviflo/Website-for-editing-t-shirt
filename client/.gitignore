@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-# Ignore .env file containing sensitive information
+# Secret
 .env
 
 

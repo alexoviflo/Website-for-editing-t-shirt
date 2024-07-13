@@ -1,6 +1,6 @@
 import express from 'express';
 import * as dotenv from 'dotenv';
-import openai from 'openai'; // Endret import her
+import openai from 'openai'; 
 
 dotenv.config();
 
@@ -18,7 +18,7 @@ router.route('/').post(async (req, res) => {
   try {
     const { prompt } = req.body;
 
-    const response = await openaiInstance.createImage({ // Bruk openaiInstance for å kalle metoden
+    const response = await openaiInstance.createImage({ // Bruker openaiInstance for å kalle metoden
       prompt,
       n: 1,
       size: '1024x1024',
